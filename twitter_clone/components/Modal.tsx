@@ -11,7 +11,6 @@ interface ModalProps {
     footer?: React.ReactElement;
     actionLabel:string;
     disabled?: boolean;
-
 }
 
 const Modal: React.FC<ModalProps> = ({
@@ -62,6 +61,7 @@ const Modal: React.FC<ModalProps> = ({
                     focus:outline-none
                     bg-neutral-800
                     bg-opacity-70
+                    pt-10
                 ">
                     <div className="
                         relative
