@@ -21,6 +21,8 @@ export default async function handler (
                     userId: currentUser.id
                 }
             });
+
+            return res.status(200).json(post);
         }
 
         if(req.method == 'GET') {
